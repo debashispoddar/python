@@ -3,7 +3,7 @@ from mysql.connector import connect
 word = input("Enter a word in English and press Enter: ")
 con = mysql.connector.connect(
     user="ardit700_student", 
-    password = "ardit700_student", 
+    password = "", 
     host="108.167.140.122", 
     database = "ardit700_pm1database"
 )
